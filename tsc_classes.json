@@ -110,15 +110,11 @@
             ],
             "male": [
                 "briefs",
-                "socks",
-                "dress_shoes",
                 "tux"
             ],
             "female": [
                 "panties",
                 "bra",
-                "stockings",
-                "dress_shoes",
                 "maid_dress",
                 "maid_hat"
             ]
