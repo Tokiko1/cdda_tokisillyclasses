@@ -15,6 +15,7 @@
             "bio_metabolics",
             "bio_resonator",
             "bio_furnace",
+            "bio_flashlight",
             "bio_hydraulics",
             "bio_climate",
             "bio_str_enhancer",
@@ -42,11 +43,61 @@
                 "name": "cooking"
             },
             {
-                "level": 1,
-                "name": "driving"
+                "level": 4,
+                "name": "tailor"
+            }
+
+
+        ],
+        "items": {
+            "both" : [
+                "pocketwatch",
+                "knife_steak"
+            ],
+            "male": [
+                "briefs",
+                "socks",
+                "dress_shoes",
+                "tux"
+            ],
+            "female": [
+                "panties",
+                "bra",
+                "stockings",
+                "dress_shoes",
+                "maid_dress",
+                "maid_hat"
+            ]
+        }
+    },
+{
+        "type": "profession",
+        "ident": "harpy_servant",
+        "name": {
+            "male": "Harpy Butler",
+            "female": "Harpy Maid"
+        },
+        "description": "You were a harpy before the cataclysm. Being a harpy makes some things harder while others become easier.",
+        "points": 3,
+        "traits": [
+            "QUICK",
+            "NIGHTVISION",
+            "GLASSJAW",
+            "LIGHTEATER",
+            "TALONS",
+            "DOWN",
+            "FLEET2",
+            "ARM_FEATHERS",
+            "RAP_TALONS"
+
+        ],
+        "skills": [
+            {
+                "level": 3,
+                "name": "cooking"
             },
             {
-                "level": 2,
+                "level": 3,
                 "name": "tailor"
             }
 
@@ -73,4 +124,5 @@
             ]
         }
     }
+
 ]
